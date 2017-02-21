@@ -3,3 +3,5 @@ dist/
 .idea/
 src/**/*.jsx
 __tests__/**/*.jsx
+.DS_Store
+npm_debug.log
