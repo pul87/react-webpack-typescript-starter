@@ -3,12 +3,14 @@ Minimal starter kit with hot module replacement for fast development.
 
 **Main features**
 * [React](https://facebook.github.io/react/) (15.x)
+* [Redux](http://redux.js.org/) (3.x)
 * [Webpack](https://webpack.js.org/) (2.x)
 * [Typescript](https://www.typescriptlang.org/) (2.x)
 * [Hot Module Replacement (HMR)](https://webpack.js.org/guides/hmr-react/) using [React Hot Loader](https://github.com/gaearon/react-hot-loader) (3.x)
 * [Babel](http://babeljs.io/) (6.x)
 * [SASS](http://sass-lang.com/)
 * [Jest](https://facebook.github.io/jest/) - Testing framework for React applications
+* [Enzyme](http://airbnb.io/enzyme/) - Testing utility for React
 
 **Additional features**
 * Image loading/minification using [Image Webpack Loader](https://github.com/tcoopman/image-webpack-loader)
