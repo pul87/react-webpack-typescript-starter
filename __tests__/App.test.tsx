@@ -1,16 +1,12 @@
-import * as React from 'react';
-import * as ReactDOM from 'react-dom';
-import * as TestUtils from 'react-addons-test-utils';
-import App from '../src/components/App';
+import * as React from "react";
+import * as ReactDOM from "react-dom";
+import { shallow } from "enzyme";
+import App from "../src/components/App";
 
-it('App is rendered', () => {
-    // Render App in the document
-    const appElement: App = TestUtils.renderIntoDocument(
-        <App/>
-    );
+describe('App', () => {
+    it('App has class .app', () => {
+        const wrapper = shallow(<App/>);
+        expect(wrapper.hasClass("app")).toBeTruthy();
+    });
+} );
 
-    const appNode = ReactDOM.findDOMNode(appElement);
-
-    // Verify text content
-    expect(appNode.textContent).toEqual('Hello World!Foo to the barz');
-});

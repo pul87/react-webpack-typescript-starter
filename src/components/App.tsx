@@ -2,10 +2,10 @@ import * as React from "react";
 
 require("!style-loader!css-loader!sass-loader!./App.scss");
 
-const reactLogo = require('./react_logo.svg');
+const reactLogo = require("./react_logo.svg");
 
 export interface AppProps {
-    name?: string
+    name?: string;
 }
 
 export default class App extends React.Component<AppProps, undefined> {
